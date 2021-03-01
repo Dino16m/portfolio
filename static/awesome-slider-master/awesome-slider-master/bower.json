@@ -1,0 +1,25 @@
+{
+	"name": "awesome-slider",
+	"version": "0.3.0",
+	"description": "The awesome-slider Vanilla JS custom element web component is a cool and clean option to quickly add a slider / banner / gallery to your web projects.",
+	"authors": [
+		"rcaferati (https://github.com/rcaferati/)"
+	],
+	"license": "MIT",
+	"main": "awesome-slider.html",
+	"keywords": [
+		"awesome-slider",
+		"slider",
+		"gallery",
+		"web component",
+		"web-components",
+		"custom element"
+	],
+	"ignore": [
+		"**/.*",
+		"bower_components"
+	],
+	"dependencies": {
+		"webcomponentsjs": "^0.7.5"
+	}
+}

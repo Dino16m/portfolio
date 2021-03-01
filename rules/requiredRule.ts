@@ -1,0 +1,1 @@
+export default (value: string) => (value || '').length > 0 || Boolean(value) || 'This field is required'

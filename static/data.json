@@ -1,0 +1,41 @@
+[
+    {
+        "id": "3",
+        "name": "Kelsa Xchange",
+        "desc": "Website developed for Kelsa Stock Exchange for stock trading",
+        "tags": ["Web", "Vuetify"],
+        "primaryImage": "/img/kelsa-alt.jpg",
+        "secondaryImage": "/img/kelsa.jpg",
+        "techSheet": [
+            "Html5", "CSS3", "Vuetify", "Vuejs"
+        ],
+        "availability": "https://kelsaxchange.com",
+        "credits": ["The good people at trading view"]
+    },
+    {
+        "id": "2",
+        "name": "Holla Xchange",
+        "desc": "Website developed for Kelsa Stock Exchange for stock trading",
+        "tags": ["Web", "Nuxtjs", "Vuejs", "Django", "Vuetify"],
+        "primaryImage": "/img/kelsa-alt.jpg",
+        "secondaryImage": "/img/kelsa.jpg",
+        "techSheet": [
+            "Html5", "CSS3", "Vuetify", "Vuejs", "Scss", "MySQL", "Django"
+        ],
+        "availability": "https://kelsaxchange.com",
+        "credits": ["The good people at trading view"]
+    },
+    {
+        "id": "1",
+        "name": "A job",
+        "desc": "Website developed for Kelsa Stock Exchange for stock trading",
+        "tags": ["Web", "Nuxtjs", "Vuejs", "Django", "Vuetify"],
+        "primaryImage": "/img/kelsa-alt.jpg",
+        "secondaryImage": "/img/kelsa.jpg",
+        "techSheet": [
+            "Html5", "CSS3", "Vuetify", "Vuejs", "Scss", "MySQL", "Django"
+        ],
+        "availability": "https://kelsaxchange.com",
+        "credits": ["The good people at trading view"]
+    }
+]

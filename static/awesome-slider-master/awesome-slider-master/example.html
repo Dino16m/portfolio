@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>The Awesome Button</title>
+	<!-- Page style -->
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="example.css">
+	<link rel="stylesheet" type="text/css" href="customization.css" shim-shadowdom>
+	<!-- Load the cross-browser polyfill just if it is needed -->
+	<script>
+		('import' in document.createElement('link') && document.head.createShadowRoot) || document.write("<script src='https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.7.5/webcomponents.min.js'><\/script>");
+	</script>
+	<!-- Awesome Slider -->
+	<link rel="import" href="/elements/awesome-slider.html" />
+</head>
+
+<body>
+	<main>
+		<section>
+			<div>
+				<h1>Web components are awesome</h1>
+				<p>The <strong>awesome-slider Vanilla JS Custom Element</strong> is a cool and clean option
+					<br/> to quickly add a slider / banner / gallery to your web projects.</p>
+				<h2>
+						<strong>&lt;awesome-slider/&gt;</strong>
+						<span>~5KB compressed</span>
+					</h2>
+				<ul class="examples">
+					<!-- Awesome Button tags -->
+					<li class="example">
+						<div class="slider-container">
+							<awesome-slider pre-image="images/logo.svg" autostart="true" bullets="true">
+								<item source="images/1.jpg">
+									<a class="lettering" href="//www.batmanarkhamknight.com/">
+										<h3>Batman Arkham Knight</h3>
+										<p>batmanarkhamknight.com</p>
+									</a>
+								</item>
+								<item source="images/2.jpg"></item>
+								<item source="images/3.jpg">
+									<a class="lettering" href="//www.batmanarkhamknight.com/">
+										<h3>Batman Arkham Knight</h3>
+										<p>batmanarkhamknight.com</p>
+									</a>
+								</item>
+							</awesome-slider>
+							<awesome-button color="teal" id="exit-fullscreen">Exit Fullscreen</awesome-button>
+						</div>
+					</li>
+				</ul>
+				<footer>
+					<small>Star and support it on <a target="_blank" href="https://github.com/rcaferati/awesome-slider">github</a>.</small>
+					<small>Read more and discuss it at the <a target="_blank" href="//caferati.me/labs/cssfier">article page</a>.</small>
+					<small>Check out more projects like this at my <a href="//caferati.me/labs">lab page</a>.</small>
+					<small>For this demo I used images from the awesome game <a target='blank' href="//www.batmanarkhamknight.com">Batman Arkham Knight</a>.</small>
+				</footer>
+			</div>
+		</section>
+	</main>
+</body>
+
+</html>

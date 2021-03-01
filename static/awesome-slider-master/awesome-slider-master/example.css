@@ -1,0 +1,288 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+body,
+html {
+	background-color: #2f2f2f;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 14px;
+}
+
+html, body, .container, .subContainer, .CodeMirror {
+	height: 100%;
+	width: 100%;
+}
+
+html{
+	overflow-x: hidden;
+	overflow-y: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html::-webkit-scrollbar {
+	width: 5px;
+}
+
+html::-webkit-scrollbar-track-piece {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+html::-webkit-scrollbar-thumb {
+	background-color: rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+	letter-spacing: -1px;
+	margin: 0 0 12px;
+	color: #cfcfcf;
+	line-height: 32px;
+	font-size: 32px;
+	text-shadow: 2px 2px 0 rgba(100, 100, 100, .15)
+}
+
+h2 {
+	color: #6a6a6a;
+	margin-bottom: 24px;
+	font-size: 24px;
+}
+
+h2 strong{
+	display: block;
+}
+
+h2 span{
+	display: block;
+	font-weight: normal;
+	font-size: 12px;
+	margin-top: 4px;
+}
+
+p {
+	margin: 0 0 24px;
+	color: #6a6a6a;
+	line-height: 22px;
+	font-size: 15px;
+}
+
+ul {
+	list-style: none;
+}
+
+main {
+	display: table;
+	width: 100%;
+	min-height: 100%;
+}
+
+section {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 60px 15px;
+}
+
+awesome-button {
+	display: inline-block;
+	min-height: 38px;
+	margin: 0;
+	color: rgba(0, 0, 0, 0);
+	margin: 5px;
+}
+
+.examples {
+	display: block;
+	text-align: center;
+}
+
+awesome-slider{
+	margin: 0 auto;
+}
+
+.slider-container{
+	padding: 15px 0 55px;
+}
+
+.slider-container awesome-button{
+	position: fixed;
+	bottom: 10%;
+	width: 100%;
+	left: 0;
+	z-index: 2000;
+	visibility: hidden;
+}
+
+.banner section{
+	padding-top: calc(45% + 80px);
+}
+
+.banner .example{
+	position: static;
+}
+
+.banner .example:after{
+	display: none;
+}
+
+.banner .slider-container{
+	padding: 15px 0;
+}
+
+/*** Full screen implementation ***/
+
+.fullscreen #exit-fullscreen{
+	visibility: visible;
+}
+
+/* *** */
+
+.use {
+	display: inline-block;
+	margin-top: 55px;
+}
+
+.code {
+	display: block;
+	color: #FFFFFF;
+	font-size: 13px;
+	margin-bottom: 10px;
+	line-height: 20px;
+	word-spacing: 2px;
+	letter-spacing: 0.35px;
+}
+
+.code span {
+	color: #f92672;
+	font-style: normal;
+}
+
+.code em {
+	color: #a6e22e;
+	font-style: normal;
+}
+
+.code b {
+	color: #e6db74;
+	font-weight: normal;
+}
+
+.code i {
+	color: #66d9ef;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.code hr{
+	display: inline-block;
+	width: 30px;
+	border: none;
+}
+
+.code.left {
+	text-align: left;
+	display: inline-block;
+}
+
+li {
+	margin-bottom: 40px;
+	position: relative;
+}
+
+li:after {
+	content: " ";
+	position: absolute;
+	bottom: -20px;
+	left: 35%;
+	width: 30%;
+	height: 1px;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+li.clean:after{
+	display: none;
+}
+
+footer {
+	margin-top: 50px;
+	color: #6a6a6a;
+}
+
+footer small{
+	display: block;
+	line-height: 21px;
+}
+
+footer a {
+	color: #9f9f9f;
+	text-decoration: none;
+	-webkit-transition: color .2s ease-out;
+	transition: color .2s ease-out;
+}
+
+footer a:hover{
+	color: #dadada;
+}
+
+ul.plugins{
+	max-width: 620px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.plugins p{
+	margin: 0 0 2px;
+	font-size: 13px;
+	line-height: 23px;
+}
+
+.plugins awesome-button{
+	margin: 6px;
+}
+
+.plugins .CodeMirror{
+	text-align: left;
+	margin: 12px 0;
+}
+
+.html-wrapper .CodeMirror:nth-child(2){
+	height: auto;
+}
+
+.support{
+	display: block;
+	margin: -5px auto 24px;
+	max-width: 240px;
+	width: 90%;
+	cursor: help;
+}
+
+@media all and (max-width: 600px){
+	h1{
+		font-size: 28px;
+		line-height: 28px;
+	}
+	h2{
+		font-size: 18px;
+		line-height: 20px;
+	}
+	p{
+		font-size: 13px;
+	}
+	.code{
+		font-size: 12px;
+	}
+	github-fork{
+		display: none;
+	}
+	github-fork.fork-me{
+		display: block;
+	}
+}
