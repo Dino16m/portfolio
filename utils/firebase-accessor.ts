@@ -1,4 +1,6 @@
 import firebase from 'firebase/app'
+import 'firebase/firestore'
+import 'firebase/storage'
 import IProject from '~/types/project'
 import UProject from '~/types/UProject'
 

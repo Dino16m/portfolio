@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <div class="">
     <v-app-bar 
-      color="#FFFFFF" flat app class="home-nav"
+      color="#ffffff" flat app class="home-nav"
       :prominent="$vuetify.breakpoint.smAndUp" 
-      style="z-index: 20" elevate-on-scroll
+      style="z-index: 20" elevate-on-scroll 
     >
       <div class="nav-wrap d-flex flex-row">
         <img

@@ -22,6 +22,7 @@
 import {Component, Vue, namespace, Watch, Once} from 'nuxt-property-decorator'
 import Admin from '@/components/Admin.vue'
 import firebase from 'firebase/app'
+import 'firebase/auth'
 import CreateProject from '@/components/create.vue'
 import {adminEmail, getOrCreateFireApp, getOrCreateUI} from '@/utils/firebase-app'
 
@@ -36,7 +37,7 @@ const uiConfig = {
 }
 
 const getUiConfig = () =>{
-    const redirectUrl = window.location.origin + "admin"
+    const redirectUrl = window.location.origin + "/admin"
     uiConfig.signInSuccessUrl = redirectUrl
     return uiConfig
 }
