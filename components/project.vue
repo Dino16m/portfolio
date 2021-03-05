@@ -6,8 +6,8 @@
           <h2>{{project.name}}</h2>
           <i />
         </div>
-        <v-img height="250" class="slide" :src="project.primaryImage" v-if="hover"/>
-        <v-img height="250" :src="project.secondaryImage" v-else/>
+        <v-img height="250" class="slide" :src="project.secondaryImage" v-if="hover"/>
+        <v-img height="250" :src="project.primaryImage" v-else/>
         <v-fade-transition>
           <v-overlay v-if="hover" absolute color="#036358">
                 <div class="d-flex flex-wrap tags justify-center">
